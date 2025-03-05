@@ -1,0 +1,67 @@
+1 try { . "c:\Users\nayan\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+   2 python testing.py
+   3 ls -l
+   4 ls
+   5 rm testing.py
+   6 clear
+   7 ls
+   8 clear
+   9 python testing.py
+  10 ls
+  11 rm testing.py
+  12 ls
+  13 dir
+  14 dir -l
+  15 git init
+  16 ls
+  17 dir -a
+  18 ls -a
+  19 dir /a
+  20 dir /a
+  21 clear
+  22 rm clear
+  23 ls -a
+  24 ls /a
+  25 ls \a
+  26 dir \a
+  27 dir /a
+  28 clear
+  29 git init
+  30 dir /a...
+  31 Get-ChildItem -Force
+  32 ls
+  33 git status
+  34 git status
+  35 git add testing.py
+  36 git status
+  37 git commit -m "Initial commit"
+  38 git status
+  39 git config --global user.email "nayanawasthi973@gmail.com"
+  40 git config --global user.name "Nayan Awasthi"
+  41 git commit -m "intial commit"
+  42 git status
+  43 clear
+  44 rm testing.py
+  45 git status
+  46 git restore testing.py
+  47 git status
+  48 history
+  49 clear
+  50 git checkout -b new-feature
+  51 ls
+  52 git checkout testing.py
+  53 ls
+  54 rm new-feature
+  55 git checkout main
+  56 git checkout master
+  57 git branch -d new-feature
+  58 clear
+  59 python testing.py
+  60 git status
+  61 git add testing.py
+  62 git status
+  63 git commit -a"modifies"
+  64 git status
+  65 ls
+  66 git log
+  67 git ls-files
