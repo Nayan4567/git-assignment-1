@@ -1,0 +1,23 @@
+// Primitive vs Reference Data Types in Java
+// Primitive data types store values directly in memory and include int, double, char, etc.
+// Reference data types store memory addresses and include objects, arrays, and Strings.
+
+public class DataTypesExample {
+    public static void main(String[] args) {
+        // Primitive Type Example
+        int a = 10;
+        int b = a;
+        b = 20; 
+        System.out.println("Primitive Type:");
+        System.out.println("a: " + a); // 10
+        System.out.println("b: " + b); // 20
+
+        // Reference Type Example
+        int[] arr1 = {1, 2, 3};
+        int[] arr2 = arr1;
+        arr2[0] = 10;
+        System.out.println("\nReference Type:");
+        System.out.println("arr1[0]: " + arr1[0]); // 10
+        System.out.println("arr2[0]: " + arr2[0]); // 10
+    }
+}
